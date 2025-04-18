@@ -1,0 +1,26 @@
+{
+:simlayers {
+  :a-mode {:key :a} ; navigation
+}
+
+  :main [
+    {:des "hyperkey" :rules [[:##caps_lock :!TOCleft_shift ]] }
+    {:des "hk + spcbar = bckspc" :rules [[:!TOCSspacebar :delete_or_backspace]] }
+    {:des "esc + lcommand = backtick" :rules [[:!Cescape :grave_accent_and_tilde ]] }
+    {:des "esc + lcommand + shift = tilde" :rules [[:!CSescape :!Sgrave_accent_and_tilde ]] }
+    {:des "a-mode for hjkl movement and nm enter and ui tab and ,. PageDn/Up"
+        :rules [:a-mode
+                  [:##h :left_arrow]
+                  [:##j :down_arrow]
+                  [:##k :up_arrow]
+                  [:##l :right_arrow]
+                  [:##n :return_or_enter]
+                  [:##m :return_or_enter]
+                  [:##u :tab]
+                  [:##i :tab]
+                  [:comma :page_down]
+                  [:period :page_up]
+                ]
+        }
+  ]
+}
