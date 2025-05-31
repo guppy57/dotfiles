@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/open-dashboard.ts"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nconst Command = async () => {\n  await open(\"https://typefully.com/\");\n};\n\nexport default Command;\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEfC,EAAU,SAAY,CAC1B,QAAM,QAAK,wBAAwB,CACrC,EAEOH,EAAQG",
+  "names": ["open_dashboard_exports", "__export", "open_dashboard_default", "__toCommonJS", "import_api", "Command"]
+}
