@@ -7,10 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Catppuccin Mocha",
   "features": {
     "edit_prediction_provider": "none"
   },
-  "assistant": {
+  "agent": {
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-5-sonnet-latest"
@@ -40,7 +41,7 @@
   "buffer_font_family": "JetBrains Mono",
   "theme": {
     "mode": "system",
-    "light": "Tokyo Night",
+    "light": "Gruvbox Dark Soft",
     "dark": "Andromeda"
   },
   "autosave": "on_focus_change",
